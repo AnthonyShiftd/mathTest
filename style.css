@@ -1,0 +1,57 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+body 
+{
+    font-family: 'Poiret One', cursive;
+    color: black;
+    background-color: rgb(189, 192, 232);
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.topic{
+    margin: 0px auto;
+}
+
+h1{
+    display: block;
+    margin: 250px auto 0px auto;
+    text-align: center;
+}
+
+h3, h4{
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding: 0px 50px;
+}
+
+.question{
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+}
+
+#results{
+    display: block;
+    margin: 0px auto;
+    font-family: 'Poiret One', cursive;
+    height: 30px;
+    background: rgb(190, 189, 189);
+}
+
+#results:hover{
+    background: linear-gradient(45deg, rgb(154,154,154) 0%, rgb(199,199,199) 40%, rgb(221,221,221) 100%);
+}
+
